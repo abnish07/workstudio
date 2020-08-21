@@ -1,0 +1,82 @@
+li, ul, ol{
+    list-style: none;
+  
+    
+}
+
+.companyLogo{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    width: 400px;
+    height: 130px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 8px;
+        padding: 5px;
+}
+
+.right h3{
+    font-weight: 900;
+    text-align: center;
+    color: red;
+    margin: 10px 0;
+    
+}
+
+.right h5{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #5e5e5e;
+    padding: 20px 0 10px;
+}
+
+.companyText{
+    margin: 20px 0 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #5E5E5E;
+    position: relative;
+}
+
+.right span{
+    background: #fff;
+    padding: 2px 20px;
+    display: inline-block;
+    z-index: 99;
+    position: relative;
+    font-family: Roboto, sans-serif;
+}
+
+.companyText:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background: #f3f3f3;
+    left: 0;
+    top: 13px;
+}
+
+.right p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #8b8b8b;
+    float: left;
+    width: 100%;
+    
+}
+
+strong{
+    font-weight: bold;
+}
