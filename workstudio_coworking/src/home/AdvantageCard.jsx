@@ -7,11 +7,11 @@ function AdvantageCard(props){
     return(
         <>
         <div className="container">
-            <div className="row d-flex">
-                <div className="col-5">
+            <div className="row d-flex-column flex-sm-column flex-md-column flex-lg-row">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
         <img src={leftImage} className="img-thumbnail" />
         </div>
-        <div className="col-7">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
             <h4 className="cardTitle">{cardTitle}</h4>
             <p className="cardDesc">{cardDesc}</p>
             <div className="row">

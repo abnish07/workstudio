@@ -11,8 +11,8 @@ class WhatWeDo extends React.Component {
     return (
       <div className="what-we-do my-5 container">
           <h2 className="text-center cardTitle" style={{fontSize: 32}}>What We Do</h2>
-          {/* <div className="row">
-              <div className="col-12"> */}
+          <div className="row">
+              <div className="col-12">
         <ul className="nav nav-tabs mt-5 " id="myTab" role="tablist">
           <li className="nav-item" role="presentation">
             <a
@@ -80,8 +80,8 @@ class WhatWeDo extends React.Component {
             </a>
           </li>
         </ul>
-        {/* </div>
-        </div> */}
+        </div>
+        </div>
         <div className="tab-content" id="myTabContent">
           <div
             className="tab-pane fade show active"
