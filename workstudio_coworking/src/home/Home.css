@@ -9,7 +9,7 @@ li, ul, ol{
     flex-direction: row;
 }
 
-.card{
+.cardLogo{
     width: 400px;
     height: 130px;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
@@ -124,8 +124,11 @@ strong{
     width: 100%;
 }
 
-.btn-block{
+.btn-danger{
     background-color: #ED4031;
     border-radius: 5px;
 }
 
+.btn-block:hover{
+    background-color: #ED4031;
+}

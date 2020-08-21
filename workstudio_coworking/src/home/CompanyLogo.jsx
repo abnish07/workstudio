@@ -12,17 +12,17 @@ class CompanyLogo extends React.Component {
             <div className="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
                 <h5 className="text-center">Our Trusted Brands</h5>
                <ul className="companyLogo">
-                   <li className="card">
+                   <li className="card cardLogo">
                        <span>
                            <img src="https://www.workstudiocoworking.com/resources/static/img/boosterimg/googlecloud.png" className="card-img-top"/>
                        </span>
                    </li>
-                   <li className="card">
+                   <li className="card cardLogo">
                        <span>
                            <img src="https://www.workstudiocoworking.com/resources/static/img/boosterimg/instamojo.jpg" className="card-img-top"/>
                        </span>
                    </li>
-                   <li className="card">
+                   <li className="card cardLogo">
                        <span>
                            <img src="https://www.workstudiocoworking.com/resources/static/img/boosterimg/co.png" className="card-img-top"/>
                        </span>
@@ -31,17 +31,17 @@ class CompanyLogo extends React.Component {
                </ul>
                 
                <ul className="companyLogo">
-                   <li className="card">
+                   <li className="card cardLogo">
                        <span>
                            <img src="https://www.workstudiocoworking.com/resources/static/img/boosterimg/aws.png" className="card-img-top"/>
                        </span>
                    </li>
-                   <li className="card">
+                   <li className="card cardLogo">
                        <span>
                            <img src="https://www.workstudiocoworking.com/resources/static/img/boosterimg/The-Startup-Zone-Logo.png" className="card-img-top"/>
                        </span>
                    </li>
-                   <li className="card">
+                   <li className="card cardLogo">
                        <span>
                            <img src="https://www.workstudiocoworking.com/resources/static/img/boosterimg/DigitalOcean.png" className="card-img-top"/>
                        </span>
