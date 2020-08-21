@@ -172,6 +172,7 @@ const child4 = {
 
 const submitButton = {
   maxHeight: "42px",
+  backgroundColor: "#ED4031"
 };
 
 // const mapDispatchToProps = (dispatch) => ({

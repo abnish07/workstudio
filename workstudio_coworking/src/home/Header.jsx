@@ -1,5 +1,6 @@
 import React from "react";
 import SearchBar from '../common/SearchBar';
+import Navbar from "../common/Navbar";
 
 function Header(props) {
   return (
@@ -23,7 +24,7 @@ const searchStyle = {
 
 const imgStyle = {
   backgroundImage:
-    'linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), URL("https://onefinestay.imgix.net/media-library/ofs-home-page.jpg?auto=format&w=1280&dpr=2&fit=crop&q=80&rect=0%2C883%2C5813%2C2067")',
+    'linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), URL("https://www.workstudiocoworking.com/resources/static/img/group-2606784_1920.jpg")',
   width: "100%",
   height: "auto",
   padding: "1rem 1rem 1rem 1rem",

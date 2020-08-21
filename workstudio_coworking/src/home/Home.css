@@ -51,7 +51,7 @@ li{
     background: #fff;
     padding: 2px 20px;
     display: inline-block;
-    z-index: 99;
+    z-index: 2;
     position: relative;
     font-family: Roboto, sans-serif;
 }

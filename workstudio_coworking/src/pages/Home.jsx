@@ -12,6 +12,9 @@ class Home extends React.Component {
             <div>
                 <Header />
                 <CompanyLogo />
+                <CompanyLogo />
+                <CompanyLogo />
+                <CompanyLogo />
             </div>
          );
     }

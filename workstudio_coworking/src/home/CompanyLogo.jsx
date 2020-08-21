@@ -7,8 +7,9 @@ class CompanyLogo extends React.Component {
     }
     render() { 
         return (
-            <div className="container d-flex mt-5">
-            <div className="col-6">
+            <div className="container "> 
+            <div className="row d-flex flex-sm-column flex-md-row flex-lg-row mt-5">
+            <div className="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
                 <h5 className="text-center">Our Trusted Brands</h5>
                <ul className="companyLogo">
                    <li className="card">
@@ -49,7 +50,7 @@ class CompanyLogo extends React.Component {
                </ul>
                 
             </div>
-            <div className="col-6 right">
+            <div className="col-12 col-sm-12 col-md-4 col-lg-6 col-xl-6 right">
             <h5>From Entrepreneurs to</h5>
                 <h3>Fortune 500</h3>
                 <div className="companyText">
@@ -61,6 +62,7 @@ class CompanyLogo extends React.Component {
 have used Coworker to find flexible workspace.
 Allow our team of professional partners help you find your next coworking office space.</p>
             </div>
+            </div> 
             </div> 
          );
     }
