@@ -133,3 +133,17 @@ strong{
 .btn-block:hover{
     background-color: #ED4031;
 }
+
+.top{
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #434343;
+    width: 100%;
+    margin: 5px 0 15px;
+    font-family: Roboto, sans-serif;
+}
+
+.samp{
+    font-size: 28px;
+}
