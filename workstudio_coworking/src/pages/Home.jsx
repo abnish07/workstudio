@@ -4,6 +4,7 @@ import CompanyLogo from '../home/CompanyLogo';
 import WhatWeDo from '../home/WhatWeDo';
 import OurCenters from '../home/OurCenters';
 import Upcoming from '../home/Upcoming';
+import OurCustomers from '../home/OurCustomers';
 
 class Home extends React.Component {
     constructor(props) {
@@ -18,6 +19,7 @@ class Home extends React.Component {
                 <WhatWeDo />
                 <OurCenters />
                 <Upcoming />
+                <OurCustomers />
             </div>
          );
     }
