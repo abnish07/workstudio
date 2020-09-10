@@ -1,5 +1,6 @@
 import React from "react";
 import Map from '../contactUs/Map';
+import ContactForm from "../components/ContactForm";
 
 function Header(props) {
   return (
@@ -10,7 +11,10 @@ function Header(props) {
         </h1>
         <h3 style={h3Style}>we ensure that your enquiry is addressed within 24 hours</h3>
       </div>
-      <Map />
+      <div className="col-6 mt-5 px-5">
+      <ContactForm />
+      </div>
+      {/* <Map /> */}
     </div>
   );
 }

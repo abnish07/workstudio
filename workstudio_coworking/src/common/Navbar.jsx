@@ -47,9 +47,10 @@ class Navbar extends React.Component{
         return(
             <>
             <div className=" d-none d-sm-none d-md-block">
-            <nav className= { scrolled?"navbar2":"navbar" } style={{zIndex: 3}}>
+            <nav className= { scrolled?"navbar2":"navbar" } style={{zIndex: 99}}>
             <Link to='/'><img src="https://www.workstudiocoworking.com/resources/static/img/logo-light.png" /></Link>
             <Link to='/' className="menu">Home</Link>
+            <Link to='/about' className="menu">About</Link>
             <Link to='/our-center' className="menu">Our centers</Link>
             <Link to='/add-your-space' className="menu">Add your space</Link>
           
@@ -67,6 +68,8 @@ class Navbar extends React.Component{
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
     <button class="dropdown-item" type="button"><Link to='/' className=" dropdown-item">Home</Link></button>
+
+    <button class="dropdown-item" type="button"><Link to='/about' className=" dropdown-item">About</Link></button>
 
     <button class="dropdown-item" type="button"><Link to='/our-center' className=" dropdown-item">Our centers</Link></button>
 

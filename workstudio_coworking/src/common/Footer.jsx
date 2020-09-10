@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Footer.module.css';
+import { Link } from 'react-router-dom';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { square } from '@fortawesome/free-solid-svg-icons';
  
@@ -43,6 +44,7 @@ function Footer(){
               <div>Our Partners</div>
               <div>List your Property</div>
               <div>Jobs</div>
+               <div ><Link to="/agreement" className="text-decoration-none text-white">Agreements</Link> </div>
               </div>
        
            </div>

@@ -1,14 +1,15 @@
 import React from 'react'
+import './upcomingCard.css';
 
 function UpcomingCard(props){
 
     const { cardImages, cardTitle } = props;
 
     return(
-        <div class="card text-white" style={{width: 162, height:200}}>
-        <img src={cardImages} class="card-img" style={{width: 162, height:200}} alt="..."/>
+        <div class="imageCard text-white">
+        <img src={cardImages} class="card-img" alt="..."/>
         <div class="card-img-overlay">
-          <h5 class="card-title py-5 mt-4" >{cardTitle}</h5>
+          <h5 class="caption py-5 mt-4" >{cardTitle}</h5>
          
         </div>
       </div>

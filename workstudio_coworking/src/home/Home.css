@@ -1,12 +1,13 @@
-li, ul, ol{
+/* li, ul, ol{
     list-style: none;
   
     
-}
+} */
 
 .companyLogo{
     display: flex;
     flex-direction: row;
+    list-style: none;
 }
 
 .cardLogo{

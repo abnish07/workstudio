@@ -4,8 +4,9 @@
     margin-top: 50px;
     padding: 20px 50px 20px 50px;
     font-size: 16px;
-    color: #e9e8ea;
+    color: #e9e8ea !important;
     background-color: #3b393f;
+    text-decoration: none;
 
   }
   
@@ -26,3 +27,7 @@
     padding: 10px;
     margin-top: 10px;
   }
+
+link :hover{
+  color: white;
+}
