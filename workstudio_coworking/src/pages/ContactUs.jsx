@@ -1,6 +1,6 @@
 import React from "react";
-import Map from '../contactUs/Map';
-import ContactForm from "../components/ContactForm";
+// import Map from '../components/contactUs/Map';
+import ContactForm from "../components/contactUs/ContactForm";
 
 function Header(props) {
   return (
