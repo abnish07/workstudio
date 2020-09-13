@@ -40,7 +40,7 @@ router.post("/contact-us",(req, res)=>{
     userData = req.body
     var User = db.model('user', userSchema);
     var newUser = new User();
-    newUser.Full_Name = userData.name,
+    newUser.name = userData.name,
     newUser.email = userData.email,
     newUser.city = userData.city,
     newUser.mobileNo = userData.mobileNo
@@ -55,6 +55,7 @@ router.post("/contact-us",(req, res)=>{
     return res.status(200).json({error: false, message: 'Register Successful'})
 })
  
+
 
 // router.
 

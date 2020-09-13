@@ -3,8 +3,14 @@
 var express = require('express')
 
 var app = express()
+var cors = require('cors');
 
 app.use(express.json());
+app.use(cors());
+app.use(function(req, res, next){
+    res.header("Access-Control-Allow-Origin", "*");
+    next()
+})
 app.use(express.urlencoded({ extended: false }));
 
 app.use(require('./route'))
@@ -12,6 +18,12 @@ app.use(require('./route'))
 app.listen(8000)
 
 
+// To specify cors origin 
+
+// app.use(cors({
+//     origin: "http://localhost:10001",
+//     methods: "GET"
+// }));
 
 
 
